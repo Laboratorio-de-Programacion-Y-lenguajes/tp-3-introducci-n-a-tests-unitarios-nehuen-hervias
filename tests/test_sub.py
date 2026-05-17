@@ -13,7 +13,7 @@ def test_sub_resta_positivos():
 @pytest.mark.parametrize("a,b,expected", [
     (10, 15, -5),
     (12, 0, 12),
-    (-5, -10, -15),
+    (-5, -10, 5),
     (1.5, 0.5, 1.0)
 ])
 def test_sub_parametrizado(a, b, expected):
